@@ -1,14 +1,16 @@
 
-function convertirCelsius(celsius, fahrenheit){
-	return (celsius*1.8)+32;
+function calcularC(celsius){
+	var gradoscelsius = document.getElementById("gradosC").value;
+
+	var resultado = (gradoscelsius*1.8)+32;
+
+	document.getElementById("resultadogradosC").value=resultado;
 }
 
-function convertirFahrenheit(celsius, fahrenheit){
-	return (fahrenheit-32)*1.8;
-}
+function calcularF(fahrenheit){
+	var gradosfahrenheit = document.getElementById("gradosF").value;
 
+	var resultado = (gradosfahrenheit-32)*1.8;
 
-
-function convertir (convertirCelsius, convertirFahrenheit){
-	var celsius=
+	document.getElementById("resultadogradosF").value=resultado;
 }
